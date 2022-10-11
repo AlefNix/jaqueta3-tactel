@@ -1,0 +1,25 @@
+document.getElementById('jaw').addEventListener('click', function (e) {
+  if (document.getElementById('base').checked) {
+    document.querySelectorAll(".corbase").forEach(v => v.style.fill = jaw);
+    document.getElementById('CB').style.backgroundColor = jaw;
+  } if (document.getElementById('botoes').checked) {
+    document.querySelectorAll(".manga").forEach(v => v.style.fill = jaw);
+    document.getElementById('BT').style.backgroundColor = jaw;
+  }if(document.getElementById('gola1').checked){
+    document.querySelectorAll(".punho").forEach(v => v.style.fill = jaw);
+    document.getElementById('frente5').style.visibility = "visible";
+    document.getElementById('costas4').style.visibility = "visible";
+    document.getElementById('ge').style.backgroundColor = jaw;
+  }if(document.getElementById('gola2').checked){
+    document.querySelectorAll(".barra").forEach(v => v.style.fill = jaw);
+    document.getElementById('gi').style.backgroundColor = jaw;
+  }if(document.getElementById('punho').checked){
+    document.querySelectorAll(".corte").forEach(v => v.style.fill = jaw);
+    document.getElementById('PU').style.backgroundColor = jaw;
+  }if(document.getElementById('vista1').checked){
+    document.querySelectorAll(".capuz").forEach(v => v.style.fill = jaw);
+    document.getElementById('frente4').style.visibility = "visible";
+    document.getElementById('costas5').style.visibility = "visible";
+    document.getElementById('VD').style.backgroundColor = jaw;
+  }
+});
