@@ -525,9 +525,10 @@ border-bottom:1px solid #919191;
 
     .social_masculino{ 
         position: absolute;
-        padding-left:140px;
+        padding-left:10px;
         padding-right: 30px;
         padding-bottom: 30px;
+        padding-top: 60px;
         width: 380px;        
         height: 510px;
     }
@@ -564,8 +565,8 @@ border-bottom:1px solid #919191;
     .switch__container2{
         display: flex;
         position: absolute;
-        left:245px;
-        margin-top:650px;
+        left:145px;
+        margin-top:550px;
         vertical-align: baseline;
         z-index: 13;
     }
@@ -581,7 +582,7 @@ border-bottom:1px solid #919191;
         height: 430px !important;
     }
     .download{
-        margin-top:700px;
+        margin-top:570px;
         width: 120px;
         height: 35px;
         font-size: 15px;
@@ -589,18 +590,18 @@ border-bottom:1px solid #919191;
         left:-10px
     }
     .uploader{
-        margin-top: 700px;
+        margin-top: 570px;
         width: 116px;
         height: 24px;
         font-size: 16px;
         padding-top: 7px;
-        margin-left: 540px;
+        right: 0;
     }
     .cores,.coresb,.coresGE, .coresGI,.coresP, .coresVE, .coresVD,.coresBF,.coresBB{
             visibility: hidden;
             width: 300px;
             height: 500px;
-            left:350px;
+            left:115px;
             z-index: 22;
     }
 
@@ -630,6 +631,7 @@ border-bottom:1px solid #919191;
         border-top-right-radius: 10px;
         top: 35px;
         left: 0;
+        z-index: 22;
     }
     .botaoacabamento + label svg{
         visibility: visible;
@@ -643,7 +645,7 @@ border-bottom:1px solid #919191;
     .acabamentos{
     width: 300px;
     height: 500px;
-    z-index: 20;
+    z-index: 23;
     left: -10px;
     }
     .delete{
@@ -667,7 +669,7 @@ border-bottom:1px solid #919191;
         visibility: visible;
         position: absolute;
         top: 35px;
-        left:610px;
+        right: 0;
         width: 60px;
         height: 60px;
         background-color:#E9EAEC;
@@ -690,7 +692,7 @@ border-bottom:1px solid #919191;
         visibility: hidden;
         position: absolute;
         top: 35px;
-        left:610px;
+        right: 0;
         width: 60px;
         height: 60px;
         background-color:#E9EAEC;
