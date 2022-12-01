@@ -528,7 +528,7 @@ border-bottom:1px solid #919191;
         padding-left:10px;
         padding-right: 30px;
         padding-bottom: 30px;
-        padding-top: 60px;
+        padding-top: 90px;
         width: 380px;        
         height: 510px;
     }
@@ -552,21 +552,22 @@ border-bottom:1px solid #919191;
     }
     .frente1,.frente2,.frente3,.frente4,.frente5,.frente6,.costas1,.costas2,.costas3,.costas4,.costas5,.imgbolso, .imgfrente, .bolso{
         position: absolute;
-        width: 400px;
-        height: 300px;
+        width: 300px;
+        height: 225px;
     }
     .imgcostas{
         position: absolute;
-        width:400px;
-        height: 300px;
+        width:300px;
+        height: 225px;
     }
-
-   
+   .celular{
+    width: 300px;
+   }
     .switch__container2{
         display: flex;
         position: absolute;
-        left:145px;
-        margin-top:550px;
+        left:90px;
+        margin-top:430px;
         vertical-align: baseline;
         z-index: 13;
     }
@@ -582,7 +583,7 @@ border-bottom:1px solid #919191;
         height: 430px !important;
     }
     .download{
-        margin-top:570px;
+        margin-top:470px;
         width: 120px;
         height: 35px;
         font-size: 15px;
@@ -590,7 +591,7 @@ border-bottom:1px solid #919191;
         left:-10px
     }
     .uploader{
-        margin-top: 570px;
+        margin-top: 470px;
         width: 116px;
         height: 24px;
         font-size: 16px;
@@ -599,16 +600,16 @@ border-bottom:1px solid #919191;
     }
     .cores,.coresb,.coresGE, .coresGI,.coresP, .coresVE, .coresVD,.coresBF,.coresBB{
             visibility: hidden;
-            width: 300px;
+            width: 250px;
             height: 500px;
-            left:115px;
+            left:60px;
             z-index: 22;
     }
 
     .optcolors{
         margin-top: 14%;
         width: 100%;
-        margin-left: 20px; 
+        margin-left: 7px; 
       }
     .optcolors form{
         display: grid;
@@ -643,8 +644,8 @@ border-bottom:1px solid #919191;
     }
 
     .acabamentos{
-    width: 300px;
-    height: 500px;
+    width: 200px;
+    height: 400px;
     z-index: 23;
     left: -10px;
     }
